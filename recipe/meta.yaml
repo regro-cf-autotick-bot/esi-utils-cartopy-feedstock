@@ -1,5 +1,5 @@
 {% set name = "esi-utils-cartopy" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://code.usgs.gov/ghsc/esi/{{ name }}/-/archive/{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4e9ee616b183308a4bbb4a4fc06b2cbd7f6edc34bd2ec664165babdb88cec384
+  sha256: ba954e605cc327deaaea8ee7b2239d34999621992c4ed23f8d23d5015ac5a3d3
 
 build:
   noarch: python
